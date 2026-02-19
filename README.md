@@ -47,7 +47,7 @@ LOGAM_PASSWORD=password-anda
 ## Menjalankan
 
 ```bash
-python main.py
+uv run python main.py
 ```
 
 Browser Chromium akan terbuka dan agent mulai bekerja secara otomatis. Log disimpan ke `output.log`.
