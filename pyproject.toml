@@ -1,0 +1,11 @@
+[project]
+name = "browser-use-v2"
+version = "0.1.0"
+description = "Automated queue registration for Logam Mulia BELM"
+requires-python = ">=3.11"
+dependencies = [
+    "browser-use>=0.11.9",
+    "langchain-openai>=1.1.10",
+    "playwright>=1.58.0",
+    "python-dotenv>=1.2.1",
+]
